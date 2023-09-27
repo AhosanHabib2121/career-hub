@@ -7,6 +7,7 @@ const Root = () => {
 
     // useLocation hook use kore pathname dynamic start
     const loc = useLocation();
+    // console.log(loc)
 
     useEffect(() => {
         if (loc.pathname == '/') {
